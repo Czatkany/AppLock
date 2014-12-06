@@ -124,7 +124,7 @@ public class LockerActivity extends Activity {
                         EditText editText = (EditText) layout.findViewById(R.id.editCodeText);
                         String emptyText = "";
                         emptyText = editText.getText().toString().trim();
-                        if (emptyText.isEmpty() || emptyText.length() == 0 || emptyText.equals("") || emptyText == null) {
+                        if (emptyText.length() == 0) {
                             Toast.makeText(context, "Nincs érték!", Toast.LENGTH_SHORT).show();
                         } else {
                             if (editText.getText().toString().length() == 4) {
