@@ -94,7 +94,7 @@ public class LockerActivity extends Activity {
             checkList.add(new CheckBox(getBaseContext()));
         }
     }
-    //there seems to be an unknown issue witch prevents the app to apply the changes if the ok button is pressed the first time. It works perfectly on the second click
+   //This button click starts to block the apps.
     private void okButtonListener(final boolean codeSetted){ //This function set the ok buttons events
         okButton.setOnClickListener(new View.OnClickListener() {
             @Override
