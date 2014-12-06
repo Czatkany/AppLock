@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppLock</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="OK">OK</string>
+    <string name="ChangeCode">ChangeCode</string>
+    <string name="Exit">Exit</string>
+    <string name="dialog_title">Hiba!</string>
+    <string name="dialog_message">Nem adtál meg kódot!</string>
+
+</resources>
