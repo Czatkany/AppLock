@@ -29,14 +29,14 @@ public class AppFinderService extends Service{
     public int onStartCommand(final Intent intent, int flags, int startId) {
         loadArray(this);
 
-        handler.postDelayed(runnable, 100);//This handler is used as a scheduler.
-        runnable = new Runnable() {
+        //This handler is used as a scheduler.
+        handler.postDelayed(runnable = new Runnable() {
             @Override
             public void run() {
                 AppBlocker();
                 handler.postDelayed(this, 100);
             }
-        };
+        }, 100);
         return 1;
     }
 
