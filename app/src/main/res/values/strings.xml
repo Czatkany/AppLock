@@ -7,7 +7,17 @@
     <string name="OK">OK</string>
     <string name="ChangeCode">ChangeCode</string>
     <string name="Exit">Exit</string>
+    <string name="enterCode">EnterCode</string>
+    <string name="cancelCode">Cancel</string>
+    <string name="app_name2">CodeWindow</string>
     <string name="dialog_title">Hiba!</string>
     <string name="dialog_message">Nem adtál meg kódot!</string>
+    <string name="code_setted">Kód beállítva!</string>
+    <string name="code_lenght_error">A kód nem 4 karakter hosszúságú!</string>
+    <string name="not_matches">Nem megfelelő a hossz, vagy hibás a beírt kód</string>
+    <string name="empty">A kódmező üres!</string>
+    <string name="dialog_message2">Nem jelöltél ki alkalmazásokat!</string>
+    <string name="dialog_title2">Kód megadása</string>
+
 
 </resources>
