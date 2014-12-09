@@ -43,7 +43,7 @@ public class RestartAppLockerService extends Service {
             startService(new Intent(RestartAppLockerService.this, AppLockerService.class));
             return 0;
         }
-        if (activityOnTop.matches("com.example.tomi.applock"))
+        if (activityOnTop.matches("hu.uniobuda.nik.thisnameistoolon.RestartAppLockerService"))
         {
             return 0;
         }

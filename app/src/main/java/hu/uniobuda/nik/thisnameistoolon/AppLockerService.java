@@ -15,7 +15,7 @@ public class AppLockerService extends Service {
     public static final String TAG = "hu.uniobuda.nik.thisnameistoolon.AppLockerService";
     private final Handler handler = new Handler();
     private ArrayList<String> packageNames = new ArrayList<String>();
-    private int firstRun = 0;
+   // private int firstRun = 0;
     public AppLockerService() {
     }
 
@@ -55,16 +55,10 @@ public class AppLockerService extends Service {
                     i.putExtra("foundApp",s);
                     i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     startActivity(i);
-                    firstRun = 0;
-                    return 1;
-                }
-                if (activityOnTop.matches("com.example.tomi.applock") && firstRun >= 4) {
-                    firstRun = 0;
                     return 0;
                 }
             }
         }
-        firstRun++;
         return 1;
     }
 

@@ -27,13 +27,13 @@
         <service android:name=".AppLockerService"
             android:enabled="true">
             <intent-filter >
-                <action android:name="com.example.tomi.applock.AppLockerService" />
+                <action android:name="hu.uniobuda.nik.thisnameistoolon.AppLockerService" />
             </intent-filter>
         </service>
         <service android:name=".RestartAppLockerService"
             android:enabled="true">
             <intent-filter >
-                <action android:name="com.example.tomi.applock.RestartAppLockerService" />
+                <action android:name="hu.uniobuda.nik.thisnameistoolon.RestartAppLockerService" />
             </intent-filter>
         </service>
     </application>
